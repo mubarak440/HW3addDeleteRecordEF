@@ -1,0 +1,57 @@
+﻿@model IEnumerable<HW3addDeleteRecordEF.Db.Contact>
+
+
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+
+     <meta name="viewport" content="width=device-width" />
+
+    <title>Index</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+    <style>
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #f1f1f1;
+        }
+    </style>
+
+
+
+        <meta name="viewport" content="width=device-width" />
+        <title>Contacts</title>
+
+
+
+
+
+</head>
+
+<body>
+
+     <div class="text-center">
+        <h2>The Contacts Book</h2>
+        <h3>View Your Contacts</h3>
+
+    <div class="btn btn-success">
+    <a asp-action="Contacts">Contacts</a>
+</div>
+</div>
+    
+
+</body>
+</html>
